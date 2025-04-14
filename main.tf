@@ -5,6 +5,8 @@ resource "random_pet" "example" {}
 # name should be unique
 resource "random_pet" "example_2" {}
 
+resource "random_pet" "example_3" {}
+
 # when we ran terraform plan, it should now first random_pet resource
 # terraform apply
 # terraform state list
