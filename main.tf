@@ -1,3 +1,13 @@
+terraform { 
+  cloud { 
+    
+    organization = "yy-org" 
+
+    workspaces { 
+      name = "tf-bc-dev" 
+    } 
+  } 
+}
 # name can be anything
 resource "random_pet" "example" {}
 
